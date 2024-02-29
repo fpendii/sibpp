@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title><?= $title; ?></title>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/templete_admin/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/templete_admin/images/favicon.png">
     <!-- Pignose Calender -->
-    <link href="assets/templete_admin/plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <link href="/assets/templete_admin/plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
     <!-- Chartist -->
-    <link rel="stylesheet" href="assets/templete_admin/plugins/chartist/css/chartist.min.css">
-    <link rel="stylesheet" href="assets/templete_admin/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <link rel="stylesheet" href="/assets/templete_admin/plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="/assets/templete_admin/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
     <!-- Custom Stylesheet -->
-    <link href="assets/templete_admin/css/style.css" rel="stylesheet">
+    <link href="/assets/templete_admin/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -45,10 +45,10 @@
         <div class="nav-header">
             <div class="brand-logo">
                 <a href="index.html">
-                    <b class="logo-abbr"><img src="assets/templete_admin/images/logo.png" alt=""> </b>
-                    <span class="logo-compact"><img src="assets/templete_admin/images/logo-compact.png" alt=""></span>
+                    <b class="logo-abbr"><img src="/assets/templete_admin/images/logo.png" alt=""> </b>
+                    <span class="logo-compact"><img src="/assets/templete_admin/images/logo-compact.png" alt=""></span>
                     <span class="brand-title">
-                        <img src="assets/templete_admin/images/logo-text.png" alt="">
+                        <img src="/assets/templete_admin/images/logo-text.png" alt="">
                     </span>
                 </a>
             </div>
@@ -98,7 +98,7 @@
                                     <ul>
                                         <li class="notification-unread">
                                             <a href="javascript:void()">
-                                                <img class="float-left mr-3 avatar-img" src="assets/templete_admin/images/avatar/1.jpg" alt="">
+                                                <img class="float-left mr-3 avatar-img" src="/assets/templete_admin/images/avatar/1.jpg" alt="">
                                                 <div class="notification-content">
                                                     <div class="notification-heading">Saiful Islam</div>
                                                     <div class="notification-timestamp">08 Hours ago</div>
@@ -108,7 +108,7 @@
                                         </li>
                                         <li class="notification-unread">
                                             <a href="javascript:void()">
-                                                <img class="float-left mr-3 avatar-img" src="assets/templete_admin/images/avatar/2.jpg" alt="">
+                                                <img class="float-left mr-3 avatar-img" src="/assets/templete_admin/images/avatar/2.jpg" alt="">
                                                 <div class="notification-content">
                                                     <div class="notification-heading">Adam Smith</div>
                                                     <div class="notification-timestamp">08 Hours ago</div>
@@ -118,7 +118,7 @@
                                         </li>
                                         <li>
                                             <a href="javascript:void()">
-                                                <img class="float-left mr-3 avatar-img" src="assets/templete_admin/images/avatar/3.jpg" alt="">
+                                                <img class="float-left mr-3 avatar-img" src="/assets/templete_admin/images/avatar/3.jpg" alt="">
                                                 <div class="notification-content">
                                                     <div class="notification-heading">Barak Obama</div>
                                                     <div class="notification-timestamp">08 Hours ago</div>
@@ -128,7 +128,7 @@
                                         </li>
                                         <li>
                                             <a href="javascript:void()">
-                                                <img class="float-left mr-3 avatar-img" src="assets/templete_admin/images/avatar/4.jpg" alt="">
+                                                <img class="float-left mr-3 avatar-img" src="/assets/templete_admin/images/avatar/4.jpg" alt="">
                                                 <div class="notification-content">
                                                     <div class="notification-heading">Hilari Clinton</div>
                                                     <div class="notification-timestamp">08 Hours ago</div>
@@ -211,7 +211,7 @@
                         <li class="icons dropdown">
                             <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
                                 <span class="activity active"></span>
-                                <img src="assets/templete_admin/images/user/1.png" height="40" width="40" alt="">
+                                <img src="/assets/templete_admin/images/user/1.png" height="40" width="40" alt="">
                             </div>
                             <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
                                 <div class="dropdown-content-body">
@@ -301,33 +301,33 @@
     <!--**********************************
         Scripts
     ***********************************-->
-    <script src="assets/templete_admin/plugins/common/common.min.js"></script>
-    <script src="assets/templete_admin/js/custom.min.js"></script>
-    <script src="assets/templete_admin/js/settings.js"></script>
-    <script src="assets/templete_admin/js/gleek.js"></script>
-    <script src="assets/templete_admin/js/styleSwitcher.js"></script>
+    <script src="/assets/templete_admin/plugins/common/common.min.js"></script>
+    <script src="/assets/templete_admin/js/custom.min.js"></script>
+    <script src="/assets/templete_admin/js/settings.js"></script>
+    <script src="/assets/templete_admin/js/gleek.js"></script>
+    <script src="/assets/templete_admin/js/styleSwitcher.js"></script>
 
     <!-- Chartjs -->
-    <script src="assets/templete_admin/plugins/chart.js/Chart.bundle.min.js"></script>
+    <script src="/assets/templete_admin/plugins/chart.js/Chart.bundle.min.js"></script>
     <!-- Circle progress -->
-    <script src="assets/templete_admin/plugins/circle-progress/circle-progress.min.js"></script>
+    <script src="/assets/templete_admin/plugins/circle-progress/circle-progress.min.js"></script>
     <!-- Datamap -->
-    <script src="assets/templete_admin/plugins/d3v3/index.js"></script>
-    <script src="assets/templete_admin/plugins/topojson/topojson.min.js"></script>
-    <script src="assets/templete_admin/plugins/datamaps/datamaps.world.min.js"></script>
+    <script src="/assets/templete_admin/plugins/d3v3/index.js"></script>
+    <script src="/assets/templete_admin/plugins/topojson/topojson.min.js"></script>
+    <script src="/assets/templete_admin/plugins/datamaps/datamaps.world.min.js"></script>
     <!-- Morrisjs -->
-    <script src="assets/templete_admin/plugins/raphael/raphael.min.js"></script>
-    <script src="assets/templete_admin/plugins/morris/morris.min.js"></script>
+    <script src="/assets/templete_admin/plugins/raphael/raphael.min.js"></script>
+    <script src="/assets/templete_admin/plugins/morris/morris.min.js"></script>
     <!-- Pignose Calender -->
-    <script src="assets/templete_admin/plugins/moment/moment.min.js"></script>
-    <script src="assets/templete_admin/plugins/pg-calendar/js/pignose.calendar.min.js"></script>
+    <script src="/assets/templete_admin/plugins/moment/moment.min.js"></script>
+    <script src="/assets/templete_admin/plugins/pg-calendar/js/pignose.calendar.min.js"></script>
     <!-- ChartistJS -->
-    <script src="assets/templete_admin/plugins/chartist/js/chartist.min.js"></script>
-    <script src="assets/templete_admin/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+    <script src="/assets/templete_admin/plugins/chartist/js/chartist.min.js"></script>
+    <script src="/assets/templete_admin/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
 
 
 
-    <script src="assets/templete_admin/js/dashboard/dashboard-1.js"></script>
+    <script src="/assets/templete_admin/js/dashboard/dashboard-1.js"></script>
 
 <!-- Code injected by live-server -->
 <script>
